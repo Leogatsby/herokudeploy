@@ -3,7 +3,7 @@ const path = require('path');
 const router = express.Router();
 
 router.get('/', (req,res) =>{
-    res.redirect('/main')
+    res.redirect('/main');
 })
 
 router.get('/main', (req,res) =>{
